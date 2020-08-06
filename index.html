@@ -6,15 +6,15 @@
         <h1>Todos</h1>
         <input id="search-text" type="text" placeholder="Filter todos">
         <label>
-            HideCompleted<input id="check" type="checkbox">
+            <input type="checkbox" id="hide-completed"> Hide completed
         </label>
         <div id="todos"></div>
-        <form id='add-form'>
-            <input id="add-todo" placeholder="Enter todo" name="addTodo">
-            <button>Addtodo</button>
+        <form id="new-todo">
+            <input type="text" placeholder="Something to do" name="text">
+            <button>Add Todo</button>
         </form>
-        <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script>
-        <script src="todo-function.js"></script>
+        <script src="uuid4.js"></script>
+        <script src="todo-functions.js"></script>
         <script src="todo-app.js"></script>
     </body>
 </html>
